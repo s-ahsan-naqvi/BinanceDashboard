@@ -110,7 +110,7 @@ export default function Home() {
   return (
     <section className="min-h-screen w-full p-3 sm:p-6" >
 
-      <h1 className="text-4xl sm:text-3xl text-[#22D483] font-bold tracking-wide">My Account</h1>      
+      <h1 className="text-4xl sm:text-3xl text-[#22D483] font-bold tracking-wide">My Main Account</h1>      
       
       <div className='flex flex-col sm:flex-row sm:gap-4'>
         <Card head="Spot" profit={isProfit("S")} value={amounts.spotCurrent} />
