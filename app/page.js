@@ -15,10 +15,10 @@ export default function Home() {
 
     const getData = async () => {
       try {
-        const res = await fetch("http://localhost:4000/api/v1/futures")
+        const res = await fetch("https://binanceserver.onrender.com/api/v1/futures")
         const d = await res.json()
         
-        const res1 = await fetch("http://localhost:4000/api/v1/totalSpotBalance")
+        const res1 = await fetch("https://binanceserver.onrender.com/api/v1/totalSpotBalance")
         const d2 = await res1.json()
         console.log(res)
 
@@ -40,7 +40,7 @@ export default function Home() {
     const getSpotData = async () => {
       try {
 
-        const res = await fetch("http://localhost:4000/api/v1/totalSpotBalance")
+        const res = await fetch("https://binanceserver.onrender.com/api/v1/totalSpotBalance")
         const d = await res.json()
         
         console.log(res)
