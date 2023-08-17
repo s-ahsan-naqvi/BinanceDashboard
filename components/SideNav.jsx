@@ -26,7 +26,7 @@ const SideNav = () => {
                                 setPage("home")
                             }
                         }
-                    >Binance Dashboard</h2> :
+                    >Project Curve</h2> :
                      null}
                 <RxHamburgerMenu 
                 onClick={() => setToggle(!toggle)}

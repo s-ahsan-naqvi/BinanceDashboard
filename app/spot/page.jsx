@@ -3,15 +3,10 @@ import React from 'react'
 const page = () => {
   return (
     <>
-      <section className='h-screen w-full bg-purple-400 p-6 font-extrabold text-2xl'>
-          Spot Section 1
+      <section className='h-screen w-full p-6 font-extrabold text-2xl'>
+          <h1>Current Spot Assets</h1>
       </section>
-      <section className='h-screen w-full bg-orange-400 p-6 font-extrabold text-2xl'>
-          Section 2
-      </section>
-      <section className='h-screen w-full bg-lime-400 p-6 font-extrabold text-2xl'>
-          Section 3
-      </section>
+      \
     </>
   )
 }
